@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "bsadik.pomodoro",
+  "name": "Pomodoro",
+  "version": "1.0.0",
+  "author": "bsadik",
+  "description": "Pomodoro timer with short and long sessions and a full-screen break overlay",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Pomodoro",
+    "description": "Focus timer with enforced breaks",
+    "category": "Time",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}
